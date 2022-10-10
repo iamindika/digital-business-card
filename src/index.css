@@ -180,3 +180,41 @@ body {
 .info + .info {
   margin-top: 12px;
 }
+
+.footer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer.dark {
+  background-color: #161619;
+}
+
+.footer.light {
+  background-color: #D5D4D8;
+}
+
+.cta-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.cta-link + .cta-link {
+  margin-left: 24px;
+}
+
+.cta-icon {
+  font-size: 25px;
+  color: #918E9B;
+}
+
+.cta-icon.dark:hover {
+  color: #000;
+}
+
+.cta-icon.light:hover {
+  color: #FFF;
+}
