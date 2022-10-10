@@ -3,5 +3,180 @@
 }
 
 body {
-  margin: 0
+  margin: 0;
+  background-color: #23252C;
+  font: 400 10.25px 'Inter', sans-serif;
+  color: #FFF;
+}
+
+.main-name {
+  margin: 0;
+  font-size: 25px;
+}
+
+.main-name.dark {
+  color: #2B283A;
+}
+
+.main-occupation {
+  margin: 6px 0 0;
+  font-size: 12.8px;
+  font-weight: 400;
+}
+
+.main-occupation.light {
+  color: #F3BF99;
+}
+
+.main-occupation.dark{
+  color: #F47d27;
+}
+
+.main-website {
+  display: inline-block;
+  margin-top: 9px;
+  text-decoration: none;
+}
+
+.main-website.light {
+  color: #F5F5F5;
+}
+
+.main-website.dark {
+  color: #4A4E74
+}
+
+.main-website:hover,
+.main-website:focus {
+  color: #F3BF99;
+}
+
+.toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.info-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.info-title.light{
+  color: #F5F5F5;
+}
+
+.info-title.dark{
+  color: #2B283A;
+}
+
+.info-text {
+  margin-top: 5px;
+  line-height: 15px;
+}
+
+.info-text.light {
+  color: #DCDCDC;
+}
+
+.info-text.dark {
+  color: #4A4E74;
+}
+
+.container {
+  width: 317px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  height: 317px;
+  margin-top: 44px;
+  border: 1px solid #000;
+  border-radius: 10px 10px 0 0;
+  background-image: url('./assets/images/portrait.png');
+}
+
+.main {
+  position: relative;
+  text-align: center;
+  padding: 30px 36px;
+}
+
+.main.dark {
+  background-color: #1A1B21;
+}
+
+.main.light {
+  background-color: #F5F5F5;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 115px;
+  padding: 9px 12px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+}
+
+.btn-email {
+  background-color: #FFF;
+  border: 1px solid #D1D5DB;
+  cursor: pointer;
+}
+
+.btn-email:hover {
+  background-color: #D8D8D8;
+}
+
+.btn-social {
+  background-color: #5093E2;
+  border: none;
+}
+
+.btn-social:hover {
+  background-color: #87CEEB
+}
+
+.icon-email,
+.icon-social {
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.email-text,
+.social-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.email-text,
+.icon-email {
+  color: #374151;
+}
+
+.social-text,
+.icon-social {
+  color: #FFF;
+}
+
+.info {
+  margin-top: 33px;
+  text-align: left;
+}
+
+.info + .info {
+  margin-top: 12px;
 }
